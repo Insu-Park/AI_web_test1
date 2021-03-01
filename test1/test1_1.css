@@ -6,7 +6,7 @@ header{
     width: 800px; /*메인 이미지의 너비 사이즈와 같음*/
     height: 95px;
     background-color: #2d3a4b;
- 
+	border-top: 1px solid gray;
     /* header 안에 요소들을 모두 absolute 포지션으로 배치할 것이라서 */
     /* absolute 요소가 header의 좌상단을 기준으로 하려면 */
     /* header의 position이 relative 여야만 함 */
@@ -47,16 +47,52 @@ nav li{
  
 nav li a{color: white;}
  
+#content #main img{ 
+	width: 800px;
+}
+
+
+#content #banner1 li a{
+    display: inline;
+    text-align: center;
+    float: left;
+}
+
+#content #banner2 li a{
+    display: inline;
+    text-align: center;
+    float: right;
+}
 
 /* footer 영역 */
 footer{
     width: 800px; /*헤더와 같은 사이즈*/
     height: 90px;
-    margin-top: 20px;
     text-align: center;
-    background-color: #f1f1f1;
+	
 }
  
+footer img{
+	margin-top: 20px;
+	width: 100%;
+	background-color: gray;
+}
 /* 전체 페이지가 가운데로 오도록 */
-#page{width: 820px; margin: 0px auto;}
+#page{
+	width: 800px;
+	height: 915px;
+	border: 20px solid black;
+	margin: 10px auto;
+	box-top-shadow: 3px gray;
+	padding-top:3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	backgorund-color: red;
+}
+#border{
+	border: 20px solid red;
+	padding: 0px;
+	margin: 0px;
+}
 

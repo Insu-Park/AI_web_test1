@@ -8,7 +8,7 @@ header{
     position: relative;
 }
  
-#log{
+#logo{
     padding-top: 30px;
     padding-left: 30px;
  
@@ -20,6 +20,7 @@ header{
     top: 20px;
     color: white;
 }
+
 #top_menu a{color: white;font-size: 14px;}
  
 nav{
@@ -44,7 +45,12 @@ nav li a:hover{
     color: black;
 }
  
-#content #main img{ width: 100%; border: 1px solid gray;}
+#content #main img{ 
+	
+	width: 100%;
+	border: 1px solid gray;
+
+}
  
 #content #banner li{
     border-bottom: 1px solid gray;
